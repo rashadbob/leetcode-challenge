@@ -23,6 +23,6 @@ res = all (digits[z] == reversed_digits[z] for z in range(len(digits)))
 if res == True:
     print('success')
 
-
+#test if work
 print(digits)
 print(reversed_digits)
