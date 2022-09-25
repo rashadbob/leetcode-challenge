@@ -2,7 +2,7 @@
 from sre_constants import SUCCESS
 from string import digits
 
-
+test_num=12
 target_number=16461
 
 
@@ -23,6 +23,5 @@ res = all (digits[z] == reversed_digits[z] for z in range(len(digits)))
 if res == True:
     print('success')
 
-#test if work
 print(digits)
 print(reversed_digits)
