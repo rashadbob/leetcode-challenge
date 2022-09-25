@@ -2,7 +2,7 @@
 from sre_constants import SUCCESS
 from string import digits
 
-test_num=12
+test_num2=12
 target_number=16461
 
 
